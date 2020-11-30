@@ -1,1 +1,9 @@
+name: Stage the app
 
+on: 
+  pull_request:
+    types: [build]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
